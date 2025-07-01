@@ -13,7 +13,7 @@ export function Modal1(){
     return(
         <>
         <Button variant="primary" onClick={showModal}>
-           Registration
+           Sing in
         </Button>
         <Modal show = {show} onHide = {hideModal}>
         <button className='close-btn' onClick={hideModal}>Close</button>
